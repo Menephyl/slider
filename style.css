@@ -24,3 +24,9 @@ height: 400px;
 display: flex;
 
 }
+.slides input{
+    display: none;
+}
+.slide{
+
+}
