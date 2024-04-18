@@ -13,6 +13,19 @@ body{
     width: 800px;
     height: 400px;
     overflow: hidden;
+
     
-    
+}
+.slides{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+    display: none;
+
+}
+.slide{
+    width: 25%;
+    position: relative;
 }
