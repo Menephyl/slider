@@ -42,7 +42,7 @@ position: relative;
 .manual-navigation{
     position: absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -75,7 +75,7 @@ position: relative;
 }
 
 .navigation-auto div{
-    border: 2px solid #20a6ff;
+    border: 2px solid #ff2020;
 }
 .navigation-auto{
     position: relative;
