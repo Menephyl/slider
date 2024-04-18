@@ -65,5 +65,5 @@ position: relative;
     margin-left: -25%;
 }
 #radio3:checked ~.first{
-    margin-left: -60%;
+    margin-left: -30%;
 }
