@@ -92,3 +92,12 @@ position: relative;
 #radio1:checked ~.navigation-auto .auto-btn1{
     background-color: white;
 }
+#radio2:checked ~.navigation-auto .auto-btn1{
+    background-color: white;
+}
+#radio3:checked ~.navigation-auto .auto-btn1{
+    background-color: white;
+}
+#radio4:checked ~.navigation-auto .auto-btn1{
+    background-color: white;
+}
