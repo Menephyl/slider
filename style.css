@@ -19,6 +19,8 @@ body{
     
 }
 .slides{
+width: 400%;
+height: 400px;
+display: flex;
 
-    
 }
