@@ -32,6 +32,7 @@ display: flex;
 .slide{
 width: 25%;
 position: relative;
+transition: 4s;
 
 }
 .slide img{
