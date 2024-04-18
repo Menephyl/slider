@@ -73,3 +73,7 @@ position: relative;
 #radio4:checked ~.first{
     margin-left: -75%;
 }
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+}
