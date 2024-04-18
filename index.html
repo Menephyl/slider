@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slider com html e css</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="slider">
-        <div>
+        <div class="slides">
+            <!--Radio buttons-->
             <input type="radio" name="radio.btn" id="radio1">
             <input type="radio" name="radio.btn" id="radio2">
             <input type="radio" name="radio.btn" id="radio3">
             <input type="radio" name="radio.btn" id="radio4">
 
+            <!-- slides images -->
+            <div class="slide first">
+                <img src="" alt="slide1">
+
+            </div>
+            <div class="slide first">
+                <img src="" alt="slide2">
+                
+            </div>
+            <div class="slide first">
+                <img src="" alt="slide3">
+                
+            </div>
+            <div class="slide first">
+                <img src="" alt="slide4">
+                
+            </div>
+            <!--fim slides images-->
+            <!-- Navigation auto-->
+             <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+             </div>
+        </div>
+        <div class="manual-navigation">
+            <label for="radio1"></label>
+            <label for="radio2"></label>
+            <label for="radio3"></label>
+            <label for="radio4"></label>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
