@@ -33,7 +33,8 @@ body{
 }
 .slide img{
     width: 800px;
-
+    border-radius: 5px ;
+    border: 2px solid white;
 }
 .manual-navigation{
     position:absolute;
