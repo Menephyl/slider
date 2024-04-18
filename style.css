@@ -49,4 +49,20 @@ position: relative;
     cursor: pointer;
     transition: 1s;
 }
+.manual-btn:not(:last-child){
+    margin-right: 40px;
 
+}
+.manual-btn:hover{
+    background: red;
+
+}
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -25%;
+}
+#radio3:checked ~.first{
+    margin-left: -60%;
+}
